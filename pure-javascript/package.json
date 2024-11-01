@@ -1,0 +1,23 @@
+{
+  "name": "@sntns/sdk-pure-javascript-example",
+  "version": "1.0.0",
+  "private": true,
+  "description": "An example use of the Sentience SDK on pure-javascript",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "ISC",
+  "main": "src/index.js",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "start": "serve .",
+    "allow-scripts": "echo 'n/a'"
+  },
+  "dependencies": {
+    "@sntns/sdk": "^1.0.0",
+    "serve": "13.0.2"
+  }
+}
